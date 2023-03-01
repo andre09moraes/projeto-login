@@ -1,2 +1,48 @@
 @charset "UTF-8";
 
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: rgb(51, 48, 48);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(85, 79, 79);
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.815);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: rgb(75, 71, 71) url(../imagens/mao.jpg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    color: white;
+    padding: 10px;
+
+}
